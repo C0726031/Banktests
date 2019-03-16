@@ -19,6 +19,7 @@ namespace BankTests
             double actual = account.Balance;
             Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
+
         [TestMethod]
 
         public void Debit_WhenAmountIsLessThanZero_ShouldThrowArguementOutOfRange()
