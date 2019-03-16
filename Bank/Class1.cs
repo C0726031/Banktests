@@ -12,6 +12,7 @@ namespace Bank
     /// Bank Account demo class.
     /// </summary>
     public class BankAccount
+
     {
         public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
         public const string DebitAmountLessThanZeroMessage = "Debit amount is less than Zero";
